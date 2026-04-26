@@ -7,14 +7,11 @@ server = "docker"
 poll_for_updates = true
 auto_update = true
 destroy_before_deploy = true
-git_account = "brumi1024"
-repo = "brumi1024/deploy-komodo-op"
+git_account = "bvierra"
+repo = "bvierra/deploy-komodo-op"
 branch = "main"
 reclone = true
-file_paths = [
-    "docker-compose.yaml",
-    "compose.override.yaml",
-]
+file_paths = ["docker-compose.yaml", "compose.override.yaml"]
 
 environment = """
 KOMODO_HOST=http://host.docker.internal:9120

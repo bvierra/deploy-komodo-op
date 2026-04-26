@@ -4,7 +4,7 @@
     "config:base"
   ],
   "schedule": ["before 6am"],
-  "timezone": "America/New_York",
+  "timezone": "America/Los_Angeles",
   "labels": ["dependencies"],
   "automerge": false,
   "prConcurrentLimit": 3,
